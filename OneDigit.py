@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def oneDigitBirth():
     listDigit = []
     listTwoDigits = []
@@ -18,10 +19,8 @@ def oneDigitBirth():
     if len(listTwoDigits) >= 2:
         for i in listTwoDigits:
             sumTwoNumbers += i
-            print(sumTwoNumbers)
+        print(sumTwoNumbers)
     else:
         print(sumNumbers)
-    
-
-            
+        
 oneDigitBirth()
